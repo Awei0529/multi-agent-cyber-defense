@@ -66,14 +66,19 @@
 
 ```bash
 pip install pettingzoo langchain matplotlib numpy requests
+```
 
 ▶️ 執行方式
 (A) 執行 DDoS 多智能體模擬
+```bash
 python simple_ddos.py
+```
 觀察多智能體隨機行為與基本攻防動態。
 
 (B) 執行完整 AI 驅動防禦模擬
+```bash
 python MultiAgentCyberDefenseSim.py
+```
 執行單步分層防禦、LLM 分析與圖形化繪製。
 
 📤 模擬輸出
